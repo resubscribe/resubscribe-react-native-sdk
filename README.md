@@ -15,6 +15,7 @@ export default function Home() {
   const onTrigger = () => {
     Resubscribe.openWithConsent({
       slug: '{organization-slug}',
+      apiKey: '{api-key}',
       aiType: '{ai-type}',
       userId: '{uid}',
       userEmail: '{optionalEmail}',
@@ -49,6 +50,7 @@ export default function Home() {
   const onOpenConsent = async () => {
     Resubscribe.headless.setOptions({
       slug: '{organization-slug}',
+      apiKey: '{api-key}',
       aiType: '{ai-type}',
       userId: '{uid}',
       userEmail: '{optionalEmail}',
