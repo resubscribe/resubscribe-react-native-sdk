@@ -1,6 +1,6 @@
 {
   "name": "resubscribe-react-native-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Resubscribe React Native SDK",
   "keywords": [
     "resubscribe",
@@ -30,7 +30,8 @@
     "src"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "prepublish": "npm run build"
   },
   "engines": {
     "node": ">=14"
